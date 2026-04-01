@@ -4,16 +4,16 @@ A High-Performance Quick-Commerce MERN Stack Application
 GroceryDash is a full-stack e-commerce platform designed for speed and intelligence. It features a robust backend for managing automated order lifecycles, a dynamic React frontend, and a built-in AI recommendation engine powered by Google Gemini.
 _______________________________________________________________________________________________________________
 
-<mark>🚀 Key Features</mark>
+## **🚀 Key Features**
 
-*	Smart Logistics: Implements Euclidean distance algorithms to calculate delivery times from the central warehouse to the user's coordinates.
-*	AI-Powered Recommendations: Integrates Google Gemini 1.5 Flash to provide personalized product suggestions based on a user's unique order history.
-*	Automated Order Lifecycle: Uses Mongoose middleware and asynchronous "watchers" to transition orders from Pending to Shipped and Delivered automatically.
-*	Secure Authentication: Full JWT (JSON Web Token) implementation with protected routes and custom middleware.
-*	Modern UI: A responsive, grid-based shopping experience built with React and optimized for high-density product catalogs.
+**Smart Logistics**: Implements Euclidean distance algorithms to calculate delivery times from the central warehouse to the user's coordinates.
+**AI-Powered Recommendations**: Integrates Google Gemini 1.5 Flash to provide personalized product suggestions based on a user's unique order history.
+**Automated Order Lifecycle**: Uses Mongoose middleware and asynchronous "watchers" to transition orders from Pending to Shipped and Delivered automatically.
+**Secure Authentication**: Full JWT (JSON Web Token) implementation with protected routes and custom middleware.
+**Modern UI**: A responsive, grid-based shopping experience built with React and optimized for high-density product catalogs.
 ________________________________________
 
-🛠️ Tech Stack
+## **🛠️ Tech Stack**
 | Layer | Technology |
 |-------|------------|
 | Frontend | React.js, Vite, SCSS/Tailwind |
