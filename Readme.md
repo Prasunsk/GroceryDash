@@ -5,7 +5,7 @@ ________________________________________________________________________________
 
 🚀 Key Features
 •	Smart Logistics: Implements Euclidean distance algorithms to calculate delivery times from the central warehouse to the user's coordinates.
-•	AI-Powered Recommendations: Integrates Google Gemini 1.5 Flash to provide personalized product suggestions based on a user’s unique order history.
+•	AI-Powered Recommendations: Integrates Google Gemini 1.5 Flash to provide personalized product suggestions based on a user's unique order history.
 •	Automated Order Lifecycle: Uses Mongoose middleware and asynchronous "watchers" to transition orders from Pending to Shipped and Delivered automatically.
 •	Secure Authentication: Full JWT (JSON Web Token) implementation with protected routes and custom middleware.
 •	Modern UI: A responsive, grid-based shopping experience built with React and optimized for high-density product catalogs.
@@ -22,31 +22,38 @@ ________________________________________
 
 
 ⚙️ Installation & Setup
-1.	Clone the repository:
-Bash
+1. Clone the repository:
+```bash
 git clone https://github.com/yourusername/GroceryDash.git
 cd GroceryDash
-2.	Setup Environment Variables:
+```
+
+2. Setup Environment Variables:
 Create a .env file in the /server directory:
-Plaintext
+```plaintext
 PORT=5000
 MONGO_URI=your_mongodb_uri
 JWT_SECRET=your_secret_key
 GEMINI_API_KEY=your_google_ai_key
-3.	Install Dependencies:
-Bash
+```
+
+3. Install Dependencies:
+```bash
 # In /server
 npm install
 
 # In /client
 npm install
-4.	Run the Application:
-Bash
+```
+
+4. Run the Application:
+```bash
 # Start Backend
 npm start
 
 # Start Frontend
 npm run dev
+```
 ________________________________________
 
 🧠 Engineering Highlights
