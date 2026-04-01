@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+:root {
+  font-family: 'Times New Roman', serif; /* Premium serif font */
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #2d1810; /* Dark brown text */
+  background: linear-gradient(to top, #f5f5dc 0%, #daa520 100%); /* Beige to gold gradient from bottom to top */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: inherit; /* Inherit gradient */
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+  color: #8b4513; /* Saddle brown */
+}
+
+button {
+  border-radius: 12px;
+  border: 1px solid #daa520; /* Gold border */
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background: linear-gradient(to top, #daa520 0%, #b8860b 100%); /* Gold to dark goldenrod from bottom to top */
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+button:hover {
+  background: linear-gradient(to top, #b8860b 0%, #daa520 100%);
+  box-shadow: 0 4px 8px rgba(218, 165, 32, 0.3);
+  transform: translateY(-2px);
+}
+button:focus-visible {
+  outline: 2px solid #daa520;
+  outline-offset: 2px;
+}
+
+a {
+  color: #daa520;
+  text-decoration: none;
+}
+a:hover {
+  color: #b8860b;
+}

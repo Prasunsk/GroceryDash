@@ -1,0 +1,6 @@
+{
+    "your-gemini-Api-Key": "",
+    "mongoURI": "",
+    "jwtSecret": "",
+    "port": ""
+}
