@@ -51,16 +51,22 @@ GEMINI_API_KEY=your_google_ai_key
 
 ### 3. Install Dependencies
 ```bash
-# In /server
+# In /Application Server
 npm install
 
-# In /client
+# In /Order Processing
+npm install
+
+# In /Frontend
 npm install
 ```
 
 ### 4. Run the Application
 ```bash
-# Start Backend
+# Start Application Server
+npm start
+
+# Start Order Processing
 npm start
 
 # Start Frontend
