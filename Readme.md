@@ -67,12 +67,12 @@ npm install
 npm start
 
 # Start Order Processing
-npm start
+node server.js
 
 # Start Frontend
 npm run dev
 ```
-
+Open browser: http://localhost:5173/
 ---
 
 ## 🧠 Engineering Highlights
