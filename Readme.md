@@ -72,7 +72,10 @@ node server.js
 # Start Frontend
 npm run dev
 ```
-Open browser: http://localhost:5173/
+### 5. Verify the application
+```
+http://localhost:5173/
+```
 ---
 
 ## 🧠 Engineering Highlights
